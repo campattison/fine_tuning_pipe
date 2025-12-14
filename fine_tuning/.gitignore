@@ -1,0 +1,78 @@
+# ===========================
+# Secrets & Credentials
+# ===========================
+.env
+.env.*
+*.pem
+*.key
+secrets.yaml
+secrets.json
+*token*
+*credentials*
+
+# ===========================
+# Personal Data (Your Writings)
+# ===========================
+complete_corpus.txt
+corpus/
+data/processed/
+*.jsonl
+
+# ===========================
+# Model Outputs (Large Files)
+# ===========================
+outputs/
+checkpoints/
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+cameron-llama*/
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ===========================
+# Jupyter / Colab
+# ===========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ===========================
+# IDE
+# ===========================
+.idea/
+.vscode/
+*.sublime-*
+
+# ===========================
+# Logs & Caches
+# ===========================
+*.log
+wandb/
+runs/
+logs/
+.cache/
