@@ -73,8 +73,8 @@ training:
 # Data Configuration
 # ============================================================================
 data:
-  corpus_path: "../complete_corpus.txt"
-  processed_dir: "data/processed"
+  corpus_path: "complete_corpus.txt"  # Place corpus in same directory, or use absolute path
+  processed_dir: "processed"
   train_split: 0.9
   val_split: 0.1
   
